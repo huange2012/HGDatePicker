@@ -38,12 +38,13 @@
 - (void)showDateView {
     HGDataPickerViewController *dataPicker = [HGDataPickerViewController new];
     
-//    dataPicker.selectedDate = ^(NSString * _Nonnull dateString) {
-//        NSLog(@"selected: %@",dateString);
-//    };
-//    UINavigationController *NC = [[UINavigationController alloc] initWithRootViewController:dataPicker];
     
-    [self presentViewController:dataPicker animated:YES completion:nil];
+    dataPicker.selectedDate = ^(NSString * _Nonnull dateString) {
+        NSLog(@"selected: %@",dateString);
+    };
+    UINavigationController *NC = [[UINavigationController alloc] initWithRootViewController:dataPicker];
+    
+    [self presentViewController:NC animated:YES completion:nil];
 }
 
 @end

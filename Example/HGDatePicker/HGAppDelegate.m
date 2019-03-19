@@ -7,12 +7,22 @@
 //
 
 #import "HGAppDelegate.h"
+#import "HGViewController.h"
 
 @implementation HGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    HGViewController *VC = [[HGViewController alloc] init];
+    VC.view.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = VC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

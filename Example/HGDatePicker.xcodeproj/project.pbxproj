@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		8545C52F73D477157938A844 /* Pods_HGDatePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E6D003369E3ABD83BFF9BA /* Pods_HGDatePicker_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F854BB4A9C2BACC936DDDDEE /* Pods_HGDatePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F946D078D30A6D225AAFB23E /* Pods_HGDatePicker_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		63E1B5D03511E6C4FABFF06E /* Pods-HGDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGDatePicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGDatePicker_Example/Pods-HGDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8082F50C5672D26F790609FA /* Pods-HGDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGDatePicker_Example/Pods-HGDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A4D859D918669A5686D47E2 /* Pods-HGDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGDatePicker_Tests/Pods-HGDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C523A3A2AA8F2B0159D47505 /* Pods-HGDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGDatePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGDatePicker_Tests/Pods-HGDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E59F4AD37833BE1A39142187 /* HGDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGDatePicker.podspec; path = ../HGDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -134,7 +132,6 @@
 			children = (
 				6003F59C195388D20070C39A /* HGAppDelegate.h */,
 				6003F59D195388D20070C39A /* HGAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HGViewController.h */,
 				6003F5A6195388D20070C39A /* HGViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -248,6 +245,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = huange;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 758VVANMUD;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -520,12 +520,15 @@
 			baseConfigurationReference = 8082F50C5672D26F790609FA /* Pods-HGDatePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 758VVANMUD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HGDatePicker/HGDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "HGDatePicker/HGDatePicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Finder.wayaaf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = testnotDelete;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -535,12 +538,15 @@
 			baseConfigurationReference = 63E1B5D03511E6C4FABFF06E /* Pods-HGDatePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HGDatePicker/HGDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "HGDatePicker/HGDatePicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Finder.wayaaf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
