@@ -19,7 +19,7 @@
 #define SCREEN_BOTTOM_H    (kDevice_Is_iPhoneX || kDevice_Is_iPhoneX_Max || kDevice_Is_iPhoneXR ? 34 : 0)
 #define TITLE_VIEW_HEIGHT    (44+SCREEN_STATEBAR_H)
 
-@interface WYDataPickerViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
+@interface HGDataPickerViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (nonatomic, strong) UIPickerView *pickerView;
 @property (nonatomic, strong) NSMutableArray *yearsArray;
@@ -30,7 +30,7 @@
 
 @end
 
-@implementation WYDataPickerViewController
+@implementation HGDataPickerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

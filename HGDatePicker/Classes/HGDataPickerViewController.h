@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^CompleteSelectedDate) (NSString *dateString);
 
-@interface WYDataPickerViewController : UIViewController
+@interface HGDataPickerViewController : UIViewController
 
 @property (nonatomic, copy) CompleteSelectedDate selectedDate;
 

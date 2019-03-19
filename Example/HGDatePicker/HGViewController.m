@@ -29,7 +29,14 @@
 
 
 - (void)viewDidAppear:(BOOL)animated {
+    HGDataPickerViewController *dataPicker = [HGDataPickerViewController new];
     
+    dataPicker.selectedDate = ^(NSString * _Nonnull dateString) {
+        NSLog(@"selected: %@",dateString);
+    };
+    UINavigationController *NC = [[UINavigationController alloc] initWithRootViewController:dataPicker];
+    
+    [self presentViewController:NC animated:YES completion:nil];
 }
 
 @end
