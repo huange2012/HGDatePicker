@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HGDataPickerViewController.h"
 
 FOUNDATION_EXPORT double HGDatePickerVersionNumber;
 FOUNDATION_EXPORT const unsigned char HGDatePickerVersionString[];

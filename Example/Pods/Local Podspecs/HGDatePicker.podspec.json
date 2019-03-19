@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of HGDatePicker.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/huange/HGDatePicker",
+  "homepage": "https://github.com/huange2012/HGDatePicker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "huange": "fuchanghuan@wayaa.com"
   },
   "source": {
-    "git": "https://github.com/huange/HGDatePicker.git",
+    "git": "https://github.com/huange2012/HGDatePicker.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -7,6 +7,7 @@
 //
 
 #import "HGViewController.h"
+#import "HGDataPickerViewController.h"
 
 @interface HGViewController ()
 
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)viewDidAppear:(BOOL)animated {
+    
 }
 
 @end

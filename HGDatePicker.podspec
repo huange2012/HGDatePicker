@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/huange/HGDatePicker'
+  s.homepage         = 'https://github.com/huange2012/HGDatePicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'huange' => 'fuchanghuan@wayaa.com' }
-  s.source           = { :git => 'https://github.com/huange/HGDatePicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/huange2012/HGDatePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

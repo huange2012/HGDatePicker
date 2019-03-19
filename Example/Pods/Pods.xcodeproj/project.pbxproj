@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0441E82476A9178178DF00C2AEE41E9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */; };
-		0652369659104E2A8F25935F45790544 /* HGDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A319A79F47B86D9D2AC1B3626D474244 /* HGDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		075E59A4E6527F907BC19681FAA35F32 /* Pods-HGDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C030F836CCA1458975FC86BE29B9783 /* Pods-HGDatePicker_Tests-dummy.m */; };
 		0D5E847B5619856E1C22A74EC898F69C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
-		0F28F5DF55AFDCB792CF469345EAE85C /* HGDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E71C75AC5256829791C9FDF7C3F60A /* HGDatePicker-dummy.m */; };
 		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1E597D0EFBB9F796007B069F70AAC0C3 /* HGDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA9DD9917DE31142CB65DFF071FF1A8 /* HGDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3E09EA2827EDA9EE61C5C6E006961AEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,21 +22,23 @@
 		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6418541863A2DA899979250F285C9E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		6B916D422240D2EA00964A9C /* HGDataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B916D402240D2EA00964A9C /* HGDataPickerViewController.m */; };
-		6B916D432240D2EA00964A9C /* HGDataPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B916D412240D2EA00964A9C /* HGDataPickerViewController.h */; };
 		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7E817D2BE4194BCBBDF6BDFAF3A031B3 /* Pods-HGDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB038F32EFA6A1C22F04BE7D08A2EDF /* Pods-HGDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CAC3B81FFAB2342335164D30A3ACCD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */; };
 		950949B11DCFCD1AC92094D97610D518 /* Pods-HGDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AD867459E3C9205DFFA11745F9C573 /* Pods-HGDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A071AB39C62ECF355253C25DE6342E1C /* Pods-HGDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 842337B436E7FAFA11F3AD2300738643 /* Pods-HGDatePicker_Example-dummy.m */; };
+		A2E1982FB2B18AC69D3311EE6AB4B700 /* HGDataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D58936815B80A992A3EE0E39222A365 /* HGDataPickerViewController.m */; };
 		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD08A0268DD66897C761E8D6F098BEF6 /* HGDataPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C457F88188475FAD4082A2E052E85B9 /* HGDataPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1AAA89AFAC8598DB3D987E33B6E6027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		D5E9313FD2E472519D6AF534D5699FAD /* HGDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4307D4C95FC551179D0DFD544021BC /* HGDatePicker-dummy.m */; };
 		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		F7D9E727AB58AB8B711DB2716610871E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,73 +60,73 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9561E3CA2AD8082A8BAE48CD1D23665F;
+			remoteGlobalIDString = 0BC40E6227540F24E2AB1A4D5A361111;
 			remoteInfo = HGDatePicker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D5AAEC59BB52659E067D691808675E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		05738AC8F1EBB8E3719C4A757A86BC95 /* Pods-HGDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		142F74D7E5D76D824A544DF3054BE569 /* Pods-HGDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
-		1DF9EB597B67FFC7A8CA26A2F23B77CF /* HGDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGDatePicker.modulemap; sourceTree = "<group>"; };
+		1D58936815B80A992A3EE0E39222A365 /* HGDataPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGDataPickerViewController.m; path = HGDatePicker/Classes/HGDataPickerViewController.m; sourceTree = "<group>"; };
 		1FB3F0410624F77CF676B0A090BFDBB3 /* Pods-HGDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		295619EB3DCF78ABEA52A79EF4984684 /* Pods-HGDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
 		2D232D67603AE9C4AB36B3F8313387A1 /* Pods-HGDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		3224FE959710F7C765444DCDCD4B39B4 /* HGDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGDatePicker-prefix.pch"; sourceTree = "<group>"; };
 		37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3B2937C67D0213E4ECDF11DD6F57BE34 /* Pods_HGDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA9DD9917DE31142CB65DFF071FF1A8 /* HGDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		3B2937C67D0213E4ECDF11DD6F57BE34 /* Pods_HGDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HGDatePicker_Tests.framework; path = "Pods-HGDatePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3C457F88188475FAD4082A2E052E85B9 /* HGDataPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGDataPickerViewController.h; path = HGDatePicker/Classes/HGDataPickerViewController.h; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		42E95CA3B82492D63CE3902F5DD1ED64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43055F039BA2DC8606A653F84E9B4122 /* Pods-HGDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		4AB09E4D86C89DC9B7DDEB9AD0907C08 /* Pods-HGDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		60E71C75AC5256829791C9FDF7C3F60A /* HGDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGDatePicker-dummy.m"; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A4F99941FD9176E8839D8AD24F98BBD /* HGDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGDatePicker.xcconfig; sourceTree = "<group>"; };
 		6A8BA46307B3AE0D6784E38D79CC6DA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B916D402240D2EA00964A9C /* HGDataPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGDataPickerViewController.m; path = HGDatePicker/Classes/HGDataPickerViewController.m; sourceTree = "<group>"; };
-		6B916D412240D2EA00964A9C /* HGDataPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGDataPickerViewController.h; path = HGDatePicker/Classes/HGDataPickerViewController.h; sourceTree = "<group>"; };
-		6F8C4ED49A2D2065551420FB31AB7E68 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8C4ED49A2D2065551420FB31AB7E68 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7152258549FEBCCBA9146FD717E2E88B /* Pods-HGDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		72B123CAEDC7BB206289F62B2EC2CE5C /* HGDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGDatePicker.modulemap; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7CB038F32EFA6A1C22F04BE7D08A2EDF /* Pods-HGDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		842337B436E7FAFA11F3AD2300738643 /* Pods-HGDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8C030F836CCA1458975FC86BE29B9783 /* Pods-HGDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98BC1C5A71B8F3777F101271A62C5993 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A319A79F47B86D9D2AC1B3626D474244 /* HGDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		A7CC4C957D9C284911BA42AB3D19A893 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AC777C68291C5CCF55225019981977C6 /* Pods-HGDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B2BA302B2A89CB25C495AE7EF3820177 /* HGDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HGDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B4C1A936B4D57F84A8EAB192982F3374 /* HGDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HGDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F5A6E94C1F37D67A9A60DBDF56C7DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AF4307D4C95FC551179D0DFD544021BC /* HGDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGDatePicker-dummy.m"; sourceTree = "<group>"; };
+		B4C1A936B4D57F84A8EAB192982F3374 /* HGDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGDatePicker.framework; path = HGDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BB395C9EEF8C087036C2126DC5899E54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BFD79A72B67478C502422EF2EBFFCAC4 /* Pods-HGDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C67FD1D918A05CA8C28610A1313D7FA1 /* Pods-HGDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C88F31806EE45AAF8C07549C779ACAFB /* Pods_HGDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88F31806EE45AAF8C07549C779ACAFB /* Pods_HGDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HGDatePicker_Example.framework; path = "Pods-HGDatePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49F9B26F0C3783F91F7BADE500CC0E1 /* Pods-HGDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		D9B3B2A6BDEC81CBFA7E0752958A3C63 /* HGDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HGDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E071BC1CF31A81A41F5D931FDCC975D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E3EB49B57AE5623C4647987E7E6674A3 /* HGDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGDatePicker-prefix.pch"; sourceTree = "<group>"; };
 		E5AD867459E3C9205DFFA11745F9C573 /* Pods-HGDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		EBFA94481DD14F30F0FFDF698074716F /* Pods-HGDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC52C2684B0AE4C542E74CDA97C98242 /* Pods-HGDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGDatePicker_Example.modulemap"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F7FA7194217F9A6AE433E77E4C59A4B9 /* HGDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGDatePicker.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,14 +149,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA31C6D3B10592D0D711C760905453EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E09EA2827EDA9EE61C5C6E006961AEC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F46E6E37952B3494FB15587E63804A16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,9 +157,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F640389406B2AA771DF47946446F38B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D9E727AB58AB8B711DB2716610871E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		061984683BEA822ED9DDC078E2E28A05 /* HGDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3C457F88188475FAD4082A2E052E85B9 /* HGDataPickerViewController.h */,
+				1D58936815B80A992A3EE0E39222A365 /* HGDataPickerViewController.m */,
+				A47C8791CD6FC36D7D4368505354F8BF /* Pod */,
+				9C1BB1978D769B72D94057DA726A287C /* Support Files */,
+			);
+			name = HGDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,7 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -226,22 +239,12 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F276C5923B00A0A8F4324FD9E9DD9413 /* Development Pods */,
+				CDA5868701F38F71BFC51516B6236C8C /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				3334F1ECDB2EF46E56449207C2F43FCC /* Products */,
 				952971C1049921D9665771E1A9624898 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		933F453CCEADC15DA5C63AB5008761FD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B2BA302B2A89CB25C495AE7EF3820177 /* HGDatePicker.podspec */,
-				B5F5A6E94C1F37D67A9A60DBDF56C7DB /* LICENSE */,
-				98BC1C5A71B8F3777F101271A62C5993 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		952971C1049921D9665771E1A9624898 /* Targets Support Files */ = {
@@ -259,6 +262,30 @@
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9C1BB1978D769B72D94057DA726A287C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72B123CAEDC7BB206289F62B2EC2CE5C /* HGDatePicker.modulemap */,
+				F7FA7194217F9A6AE433E77E4C59A4B9 /* HGDatePicker.xcconfig */,
+				AF4307D4C95FC551179D0DFD544021BC /* HGDatePicker-dummy.m */,
+				E3EB49B57AE5623C4647987E7E6674A3 /* HGDatePicker-prefix.pch */,
+				3AA9DD9917DE31142CB65DFF071FF1A8 /* HGDatePicker-umbrella.h */,
+				02D5AAEC59BB52659E067D691808675E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HGDatePicker";
+			sourceTree = "<group>";
+		};
+		A47C8791CD6FC36D7D4368505354F8BF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D9B3B2A6BDEC81CBFA7E0752958A3C63 /* HGDatePicker.podspec */,
+				A7CC4C957D9C284911BA42AB3D19A893 /* LICENSE */,
+				BB395C9EEF8C087036C2126DC5899E54 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B4AF8E9A94E2DD6CED3DDE40EE259DEF /* Pods-HGDatePicker_Tests */ = {
@@ -279,22 +306,10 @@
 			path = "Target Support Files/Pods-HGDatePicker_Tests";
 			sourceTree = "<group>";
 		};
-		C90EC91F8BEFF6DD9448762CE1A1BD76 /* HGDatePicker */ = {
+		CDA5868701F38F71BFC51516B6236C8C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6B916D412240D2EA00964A9C /* HGDataPickerViewController.h */,
-				6B916D402240D2EA00964A9C /* HGDataPickerViewController.m */,
-				933F453CCEADC15DA5C63AB5008761FD /* Pod */,
-				FE77878C27360876E8C147D6B7F7B62C /* Support Files */,
-			);
-			name = HGDatePicker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F276C5923B00A0A8F4324FD9E9DD9413 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C90EC91F8BEFF6DD9448762CE1A1BD76 /* HGDatePicker */,
+				061984683BEA822ED9DDC078E2E28A05 /* HGDatePicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -326,20 +341,6 @@
 				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		FE77878C27360876E8C147D6B7F7B62C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1DF9EB597B67FFC7A8CA26A2F23B77CF /* HGDatePicker.modulemap */,
-				6A4F99941FD9176E8839D8AD24F98BBD /* HGDatePicker.xcconfig */,
-				60E71C75AC5256829791C9FDF7C3F60A /* HGDatePicker-dummy.m */,
-				3224FE959710F7C765444DCDCD4B39B4 /* HGDatePicker-prefix.pch */,
-				A319A79F47B86D9D2AC1B3626D474244 /* HGDatePicker-umbrella.h */,
-				42E95CA3B82492D63CE3902F5DD1ED64 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HGDatePicker";
 			sourceTree = "<group>";
 		};
 		FF69119557000F89C69E967F82334939 /* Pods-HGDatePicker_Example */ = {
@@ -375,7 +376,6 @@
 				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
 				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
 				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
-				6B916D432240D2EA00964A9C /* HGDataPickerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,17 +395,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFE4F22EE11388C2493F7000B0C8AA9B /* Headers */ = {
+		FD195CF76FBEF911CB8F3B19C0187D9E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0652369659104E2A8F25935F45790544 /* HGDatePicker-umbrella.h in Headers */,
+				CD08A0268DD66897C761E8D6F098BEF6 /* HGDataPickerViewController.h in Headers */,
+				1E597D0EFBB9F796007B069F70AAC0C3 /* HGDatePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0BC40E6227540F24E2AB1A4D5A361111 /* HGDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC0E0BF7AD333340EED7C10450E56B1 /* Build configuration list for PBXNativeTarget "HGDatePicker" */;
+			buildPhases = (
+				FD195CF76FBEF911CB8F3B19C0187D9E /* Headers */,
+				253BB0275B94069F3AC9695E6B085896 /* Sources */,
+				F640389406B2AA771DF47946446F38B4 /* Frameworks */,
+				BBD42C0FE19AC94DA37FFCB89E70474E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGDatePicker;
+			productName = HGDatePicker;
+			productReference = B4C1A936B4D57F84A8EAB192982F3374 /* HGDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4F6189B0F9C11F446C3C29A8BFB263C8 /* Pods-HGDatePicker_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00648294DD3B88556400826E9A2A1D97 /* Build configuration list for PBXNativeTarget "Pods-HGDatePicker_Tests" */;
@@ -442,24 +461,6 @@
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
 			productReference = 6F8C4ED49A2D2065551420FB31AB7E68 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9561E3CA2AD8082A8BAE48CD1D23665F /* HGDatePicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1769EABC629168A9D18E69BD08739573 /* Build configuration list for PBXNativeTarget "HGDatePicker" */;
-			buildPhases = (
-				EFE4F22EE11388C2493F7000B0C8AA9B /* Headers */,
-				AA3098BA775A238AA184CB3B3291FD50 /* Sources */,
-				BA31C6D3B10592D0D711C760905453EB /* Frameworks */,
-				62E435842E7A78FB8CA185A65DA9C1B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HGDatePicker;
-			productName = HGDatePicker;
-			productReference = B4C1A936B4D57F84A8EAB192982F3374 /* HGDatePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F5862BB0D31E4664B9EF0DC07D6D0A02 /* Pods-HGDatePicker_Example */ = {
@@ -503,7 +504,7 @@
 			projectRoot = "";
 			targets = (
 				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
-				9561E3CA2AD8082A8BAE48CD1D23665F /* HGDatePicker */,
+				0BC40E6227540F24E2AB1A4D5A361111 /* HGDatePicker */,
 				F5862BB0D31E4664B9EF0DC07D6D0A02 /* Pods-HGDatePicker_Example */,
 				4F6189B0F9C11F446C3C29A8BFB263C8 /* Pods-HGDatePicker_Tests */,
 			);
@@ -518,14 +519,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62E435842E7A78FB8CA185A65DA9C1B0 /* Resources */ = {
+		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
+		BBD42C0FE19AC94DA37FFCB89E70474E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,11 +543,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		253BB0275B94069F3AC9695E6B085896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E1982FB2B18AC69D3311EE6AB4B700 /* HGDataPickerViewController.m in Sources */,
+				D5E9313FD2E472519D6AF534D5699FAD /* HGDatePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B916D422240D2EA00964A9C /* HGDataPickerViewController.m in Sources */,
 				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
 				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
 				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
@@ -567,14 +576,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA3098BA775A238AA184CB3B3291FD50 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F28F5DF55AFDCB792CF469345EAE85C /* HGDatePicker-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D9EFD3CB28C1DE9FCAFB01E3102029AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,7 +590,7 @@
 		5764FB295E7910DC5325582871871AE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HGDatePicker;
-			target = 9561E3CA2AD8082A8BAE48CD1D23665F /* HGDatePicker */;
+			target = 0BC40E6227540F24E2AB1A4D5A361111 /* HGDatePicker */;
 			targetProxy = CDD351666AB734726D694B88541E45B2 /* PBXContainerItemProxy */;
 		};
 		EDBC7D37272C1395EAA165CA0C6D6360 /* PBXTargetDependency */ = {
@@ -607,6 +608,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3103734EDE183F03744107F572B84955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FA7194217F9A6AE433E77E4C59A4B9 /* HGDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGDatePicker/HGDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HGDatePicker/HGDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = HGDatePicker;
+				PRODUCT_NAME = HGDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		42653CED19211D4DE2E1CE995E2CE1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -734,37 +765,6 @@
 			};
 			name = Debug;
 		};
-		7EAFEF495F157E25B262F7A9A00CD7F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4F99941FD9176E8839D8AD24F98BBD /* HGDatePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGDatePicker/HGDatePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGDatePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HGDatePicker/HGDatePicker.modulemap";
-				PRODUCT_MODULE_NAME = HGDatePicker;
-				PRODUCT_NAME = HGDatePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -820,9 +820,41 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8E447169681F4D830ACCF93B02B4E876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FA7194217F9A6AE433E77E4C59A4B9 /* HGDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGDatePicker/HGDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HGDatePicker/HGDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = HGDatePicker;
+				PRODUCT_NAME = HGDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -926,36 +958,6 @@
 			};
 			name = Debug;
 		};
-		CE51908D2E8F29471284CD056CFB90CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A4F99941FD9176E8839D8AD24F98BBD /* HGDatePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGDatePicker/HGDatePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGDatePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HGDatePicker/HGDatePicker.modulemap";
-				PRODUCT_MODULE_NAME = HGDatePicker;
-				PRODUCT_NAME = HGDatePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FCE636AAD7D7BDFF205F87BF3A9EC3B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C67FD1D918A05CA8C28610A1313D7FA1 /* Pods-HGDatePicker_Example.release.xcconfig */;
@@ -1002,15 +1004,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1769EABC629168A9D18E69BD08739573 /* Build configuration list for PBXNativeTarget "HGDatePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE51908D2E8F29471284CD056CFB90CB /* Debug */,
-				7EAFEF495F157E25B262F7A9A00CD7F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1025,6 +1018,15 @@
 			buildConfigurations = (
 				42653CED19211D4DE2E1CE995E2CE1D2 /* Debug */,
 				731E143A1753E89B9FDCF64E407BA4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC0E0BF7AD333340EED7C10450E56B1 /* Build configuration list for PBXNativeTarget "HGDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3103734EDE183F03744107F572B84955 /* Debug */,
+				8E447169681F4D830ACCF93B02B4E876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
