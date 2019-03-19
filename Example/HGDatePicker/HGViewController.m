@@ -18,7 +18,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = [UIColor redColor];
+    btn.frame = CGRectMake(0, 80, 80, 40);
+    [btn addTarget:self action:@selector(showDateView) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning
@@ -28,15 +35,15 @@
 }
 
 
-- (void)viewDidAppear:(BOOL)animated {
+- (void)showDateView {
     HGDataPickerViewController *dataPicker = [HGDataPickerViewController new];
     
-    dataPicker.selectedDate = ^(NSString * _Nonnull dateString) {
-        NSLog(@"selected: %@",dateString);
-    };
-    UINavigationController *NC = [[UINavigationController alloc] initWithRootViewController:dataPicker];
+//    dataPicker.selectedDate = ^(NSString * _Nonnull dateString) {
+//        NSLog(@"selected: %@",dateString);
+//    };
+//    UINavigationController *NC = [[UINavigationController alloc] initWithRootViewController:dataPicker];
     
-    [self presentViewController:NC animated:YES completion:nil];
+    [self presentViewController:dataPicker animated:YES completion:nil];
 }
 
 @end
