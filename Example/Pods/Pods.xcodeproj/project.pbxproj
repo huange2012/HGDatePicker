@@ -24,8 +24,8 @@
 		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6418541863A2DA899979250F285C9E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		6B916D422240D2EA00964A9C /* WYDataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B916D402240D2EA00964A9C /* WYDataPickerViewController.m */; };
-		6B916D432240D2EA00964A9C /* WYDataPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B916D412240D2EA00964A9C /* WYDataPickerViewController.h */; };
+		6B916D422240D2EA00964A9C /* HGDataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B916D402240D2EA00964A9C /* HGDataPickerViewController.m */; };
+		6B916D432240D2EA00964A9C /* HGDataPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B916D412240D2EA00964A9C /* HGDataPickerViewController.h */; };
 		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7E817D2BE4194BCBBDF6BDFAF3A031B3 /* Pods-HGDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB038F32EFA6A1C22F04BE7D08A2EDF /* Pods-HGDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -93,8 +93,8 @@
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A4F99941FD9176E8839D8AD24F98BBD /* HGDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGDatePicker.xcconfig; sourceTree = "<group>"; };
 		6A8BA46307B3AE0D6784E38D79CC6DA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B916D402240D2EA00964A9C /* WYDataPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYDataPickerViewController.m; path = HGDatePicker/Classes/WYDataPickerViewController.m; sourceTree = "<group>"; };
-		6B916D412240D2EA00964A9C /* WYDataPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYDataPickerViewController.h; path = HGDatePicker/Classes/WYDataPickerViewController.h; sourceTree = "<group>"; };
+		6B916D402240D2EA00964A9C /* HGDataPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGDataPickerViewController.m; path = HGDatePicker/Classes/HGDataPickerViewController.m; sourceTree = "<group>"; };
+		6B916D412240D2EA00964A9C /* HGDataPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGDataPickerViewController.h; path = HGDatePicker/Classes/HGDataPickerViewController.h; sourceTree = "<group>"; };
 		6F8C4ED49A2D2065551420FB31AB7E68 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7152258549FEBCCBA9146FD717E2E88B /* Pods-HGDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
@@ -282,8 +282,8 @@
 		C90EC91F8BEFF6DD9448762CE1A1BD76 /* HGDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				6B916D412240D2EA00964A9C /* WYDataPickerViewController.h */,
-				6B916D402240D2EA00964A9C /* WYDataPickerViewController.m */,
+				6B916D412240D2EA00964A9C /* HGDataPickerViewController.h */,
+				6B916D402240D2EA00964A9C /* HGDataPickerViewController.m */,
 				933F453CCEADC15DA5C63AB5008761FD /* Pod */,
 				FE77878C27360876E8C147D6B7F7B62C /* Support Files */,
 			);
@@ -375,7 +375,7 @@
 				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
 				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
 				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
-				6B916D432240D2EA00964A9C /* WYDataPickerViewController.h in Headers */,
+				6B916D432240D2EA00964A9C /* HGDataPickerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B916D422240D2EA00964A9C /* WYDataPickerViewController.m in Sources */,
+				6B916D422240D2EA00964A9C /* HGDataPickerViewController.m in Sources */,
 				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
 				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
 				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
