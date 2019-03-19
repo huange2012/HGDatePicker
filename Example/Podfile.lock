@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HGDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HGDatePicker (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HGDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HGDatePicker: bc463af0b30ef9c5cdeedfcd66b0131a68051abe
+
+PODFILE CHECKSUM: cfd2fd757eccfcca234a3f248a1d4c8ce56bc6d4
+
+COCOAPODS: 1.5.3

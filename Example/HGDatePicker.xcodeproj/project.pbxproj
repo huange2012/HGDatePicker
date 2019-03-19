@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25E497BA971EC80FB1FF5A77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		25E497BA971EC80FB1FF5A77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HGDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A4D859D918669A5686D47E2 /* Pods-HGDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGDatePicker_Tests/Pods-HGDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C523A3A2AA8F2B0159D47505 /* Pods-HGDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGDatePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGDatePicker_Tests/Pods-HGDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E59F4AD37833BE1A39142187 /* HGDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HGDatePicker.podspec; path = ../HGDatePicker.podspec; sourceTree = "<group>"; };
+		E59F4AD37833BE1A39142187 /* HGDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGDatePicker.podspec; path = ../HGDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5E6D003369E3ABD83BFF9BA /* Pods_HGDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F35C2E6BBBE9E64C3CC5DB8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F35C2E6BBBE9E64C3CC5DB8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F946D078D30A6D225AAFB23E /* Pods_HGDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

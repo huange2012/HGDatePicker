@@ -1,0 +1,6 @@
+framework module HGDatePicker {
+  umbrella header "HGDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
