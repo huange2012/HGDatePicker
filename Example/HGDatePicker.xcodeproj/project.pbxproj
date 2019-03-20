@@ -526,7 +526,7 @@
 				GCC_PREFIX_HEADER = "HGDatePicker/HGDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "HGDatePicker/HGDatePicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Finder.wayaaf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = testnotDelete;
 				WRAPPER_EXTENSION = app;
@@ -544,7 +544,7 @@
 				GCC_PREFIX_HEADER = "HGDatePicker/HGDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "HGDatePicker/HGDatePicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Finder.wayaaf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
